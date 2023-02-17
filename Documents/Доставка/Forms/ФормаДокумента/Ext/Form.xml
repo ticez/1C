@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="ТЧ1" id="7">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТЧ1</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЧ1КонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ТЧ1КоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ТЧ1РасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ТЧ1СтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ТЧ1</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ1СтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТЧ1СтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЧ1СостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ТЧ1</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ1СостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТЧ1СостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЧ1УправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ТЧ1</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЧ1УправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТЧ1УправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТЧ1НомерСтроки" id="20">
+					<DataPath>Объект.ТЧ1.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ1НомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТЧ1НомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ТЧ1Клиент" id="23">
+					<DataPath>Объект.ТЧ1.Клиент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ1КлиентКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТЧ1КлиентРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТЧ1Номенклатура" id="26">
+					<DataPath>Объект.ТЧ1.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ1НоменклатураКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТЧ1НоменклатураРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ТЧ1ВидДоставки" id="32">
+					<DataPath>Объект.ТЧ1.ВидДоставки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ1ВидДоставкиКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТЧ1ВидДоставкиРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ТЧ1ВидДоставкиПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТЧ1Количество" id="35">
+					<DataPath>Объект.ТЧ1.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ1КоличествоКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТЧ1КоличествоРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ТЧ1Стоимость" id="29">
+					<DataPath>Объект.ТЧ1.Стоимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЧ1СтоимостьКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТЧ1СтоимостьРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Доставка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
