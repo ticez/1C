@@ -220,6 +220,7 @@
 			<Catalog>Поставщики</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>Товар</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>Продажа</Document>
 			<Enum>Измерение</Enum>
