@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Enum uuid="919c90c7-464c-4052-a626-f0ae5cc98937">
+	<Enum uuid="32638f36-6429-44bd-9b4c-18f28e8520d5">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.Должности" category="Ref">
-				<xr:TypeId>09fc97a6-4fdf-46e1-8979-48d1d6e27842</xr:TypeId>
-				<xr:ValueId>398b04c6-2c09-4b94-9459-1347156332e5</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.Измерение" category="Ref">
+				<xr:TypeId>e95532ba-15c5-4601-aa4b-b0a6485f6a12</xr:TypeId>
+				<xr:ValueId>32ee7dcd-4b80-47ea-97eb-0ddf75873275</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.Должности" category="Manager">
-				<xr:TypeId>f40bc72f-1040-4634-a1ad-f22af92966e3</xr:TypeId>
-				<xr:ValueId>409b6fad-3a78-4655-88ff-81ecbf55f99e</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.Измерение" category="Manager">
+				<xr:TypeId>bf5f3b18-b064-4945-a3bd-194b1b012749</xr:TypeId>
+				<xr:ValueId>b6036e16-a42d-4409-befe-aa933f1d14d7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.Должности" category="List">
-				<xr:TypeId>bd496a5e-ecc5-487d-a02d-36fe174c3124</xr:TypeId>
-				<xr:ValueId>3890886d-31b0-4b3d-9b35-7eef1918b39f</xr:ValueId>
+			<xr:GeneratedType name="EnumList.Измерение" category="List">
+				<xr:TypeId>34d158ad-5924-468d-a926-044f190e1883</xr:TypeId>
+				<xr:ValueId>6c792b58-b10e-4f59-ab9d-80aadd5e0d77</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Должности</Name>
+			<Name>Измерение</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Должности</v8:content>
+					<v8:content>Измерение</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -38,37 +38,37 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="ad710db4-85d5-4abb-bbe6-eaf1e80bab7c">
+			<EnumValue uuid="cf5fade7-5927-48bf-a750-6ece7a9a46ef">
 				<Properties>
-					<Name>Заведующий</Name>
+					<Name>Мл</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заведующий</v8:content>
+							<v8:content>Мл</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="766145da-4cd3-4904-9b2b-517bd9f8fa83">
+			<EnumValue uuid="04bb0b21-1e46-4a5b-abbc-4e4a3a6be886">
 				<Properties>
-					<Name>Фармацевт</Name>
+					<Name>Ампулы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Фармацевт</v8:content>
+							<v8:content>Ампулы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="aa17c573-e9bb-40e2-9881-cc52f4fed861">
+			<EnumValue uuid="e8e33860-4c6e-4ca5-9ab9-5ad2c9d680c1">
 				<Properties>
-					<Name>Администратор</Name>
+					<Name>Шт</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Администратор</v8:content>
+							<v8:content>Шт</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

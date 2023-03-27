@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<AccumulationRegister uuid="fac6a643-0b9f-4791-89fc-fc57e495306d">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AccumulationRegister uuid="ee211e3f-294a-4c7d-aa09-5ddc4e4b1bad">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.Остатки" category="Record">
-				<xr:TypeId>8fd9cf05-98f2-41bd-b4ec-7b53705e715a</xr:TypeId>
-				<xr:ValueId>05eecadf-4dba-4c3d-b4f9-84bff2d52c4f</xr:ValueId>
+				<xr:TypeId>5d4c3665-9e89-4555-b8bf-84827f3da4ef</xr:TypeId>
+				<xr:ValueId>bc33a96c-f7ad-41e3-91e5-874e64b91b56</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.Остатки" category="Manager">
-				<xr:TypeId>c7539510-bce6-4699-9361-20422d3f33ac</xr:TypeId>
-				<xr:ValueId>6c5982c8-9822-49b4-bc71-bdfc744febd9</xr:ValueId>
+				<xr:TypeId>d1c7668a-720d-4bdb-817d-21013944d822</xr:TypeId>
+				<xr:ValueId>cdcfafaf-b810-45c3-87a0-552c441c41d6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.Остатки" category="Selection">
-				<xr:TypeId>ef4e9a48-bf70-4a43-bde6-4431d5f274e6</xr:TypeId>
-				<xr:ValueId>bf86562c-23b1-42c1-84a4-7a3835f3991f</xr:ValueId>
+				<xr:TypeId>02d2941b-ae23-4b6c-8603-f0d4d0a41382</xr:TypeId>
+				<xr:ValueId>a7014e15-ee40-4198-bd20-270cb747c0a1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.Остатки" category="List">
-				<xr:TypeId>551075fe-82c3-463e-97ea-20bac1dc8c9b</xr:TypeId>
-				<xr:ValueId>01e228f6-4e57-441e-af71-c567d4cad283</xr:ValueId>
+				<xr:TypeId>9881e809-4cfa-4a36-af31-f0f1a7ff434b</xr:TypeId>
+				<xr:ValueId>71180212-e5ad-4dae-8e64-0604852f7d81</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.Остатки" category="RecordSet">
-				<xr:TypeId>f77b741e-7aae-4be6-84df-934b2a584a7a</xr:TypeId>
-				<xr:ValueId>966b2227-206c-4280-8ab4-3a4e5ec45691</xr:ValueId>
+				<xr:TypeId>f1ddb3a8-8f85-4ab9-9d66-bb68b789ef80</xr:TypeId>
+				<xr:ValueId>d9c7005c-3fd9-4b87-bc81-f186a37f7827</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.Остатки" category="RecordKey">
-				<xr:TypeId>cada7fe0-08b4-4477-861d-0e39c39f351c</xr:TypeId>
-				<xr:ValueId>d248d1e4-b96b-43a5-a940-b145d008fc2d</xr:ValueId>
+				<xr:TypeId>a82a4914-4aed-45aa-b9b5-e328fcb8037b</xr:TypeId>
+				<xr:ValueId>308528a2-293a-432c-867a-6856782c6663</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -49,7 +49,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="0561541b-3425-44c8-b1a4-0e565787bd8e">
+			<Resource uuid="a6f10e4c-04c2-479b-b2fb-381ee1990674">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -64,7 +64,7 @@
 						<v8:NumberQualifiers>
 							<v8:Digits>10</v8:Digits>
 							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
@@ -89,13 +89,13 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="1f46a83a-9791-4b51-8d47-a3eac53d0001">
+			<Dimension uuid="db9f2364-06fa-4596-b834-af45ddd82578">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>Наименование</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Наименование</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<Report uuid="1371b606-d5e1-46d6-9079-40455d1b96af">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Report uuid="a71e563e-d834-498d-b913-486a970a936c">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.Остатки" category="Object">
-				<xr:TypeId>5acdbce1-a954-4fbb-a324-58fb00d34bf6</xr:TypeId>
-				<xr:ValueId>2876810f-402b-49fa-99a0-8b03a6da9cbc</xr:ValueId>
+				<xr:TypeId>4452412f-17d6-4609-b689-a9ef81ebb46c</xr:TypeId>
+				<xr:ValueId>7edd9edc-f7ba-4875-9fe6-0bda5f11fdaf</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.Остатки" category="Manager">
-				<xr:TypeId>6d00745a-eb2c-4c52-8698-5b35965bdbd2</xr:TypeId>
-				<xr:ValueId>0270b4a6-99cc-42c0-923b-201acc8ea212</xr:ValueId>
+				<xr:TypeId>1a4bee94-2cb2-45f8-a7e9-2df1a128d678</xr:TypeId>
+				<xr:ValueId>70df7dae-ebd8-4b91-9580-39c6599c1f4e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
